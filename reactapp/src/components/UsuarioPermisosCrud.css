@@ -1,0 +1,71 @@
+/* Contenedor principal */
+.usuario-permisos-crud {
+    background-color: #ffffff; /* Fondo blanco para el componente */
+    border: 1px solid #e1e1e1; /* Borde sutil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados para la tarjeta */
+    padding: 1em;
+    color: #333; /* Texto oscuro para mejor lectura */
+}
+
+    /* Título y selectores */
+    .usuario-permisos-crud h2,
+    select {
+        color: #333; /* Texto oscuro */
+    }
+
+/* Botón de añadir permiso */
+.add-permiso {
+    background-color: #e7e7e7; /* Gris claro para el botón */
+    color: #333; /* Texto oscuro para el botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+    .add-permiso:hover {
+        background-color: #d0d0d0; /* Gris un poco más oscuro al pasar el ratón */
+    }
+
+/* Lista de permisos y botón de eliminar */
+.permisos-list {
+    list-style: none; /* Sin viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+    .permisos-list li {
+        background-color: #fafafa; /* Gris muy claro para los ítems de la lista */
+        border: 1px solid #e1e1e1; /* Borde sutil */
+        padding: 10px;
+        margin-bottom: 8px; /* Separación entre ítems */
+        border-radius: 4px; /* Bordes redondeados para los ítems */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+.delete-permiso {
+    background-color: #c2c2c2; /* Gris para el botón de eliminar */
+    color: #333; /* Texto oscuro para el botón */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+    .delete-permiso:hover {
+        background-color: #a6a6a6; /* Gris más oscuro para el hover */
+    }
+
+/* Ajustes para el selector de permisos */
+select {
+    border: 1px solid #e1e1e1; /* Borde sutil */
+    background-color: #fafafa; /* Fondo gris claro */
+    padding: 8px;
+    border-radius: 4px; /* Bordes redondeados */
+    outline: none; /* Eliminar el outline al enfocar */
+}
