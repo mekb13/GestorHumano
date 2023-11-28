@@ -56,7 +56,7 @@ const PermisosForm = ({ permiso, onSave, onCancel }) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <h2>{permiso ? 'Editar Permiso' : 'Crear Permiso'}</h2>
+            <h2>{permiso ? 'Editar Permisos' : 'Crear Permisos'}</h2>
             <label>
                 Descripción del Permiso:
                 <input
